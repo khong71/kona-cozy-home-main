@@ -1,9 +1,9 @@
 import { Heart, ChevronLeft, ChevronRight, Star, Truck } from "lucide-react";
 import { useState } from "react";
-import sofaPuff from "@/assets/sofa-puff.jpg";
-import sofaCloud from "@/assets/sofa-cloud.jpg";
-import sofaCube from "@/assets/sofa-cube.jpg";
-import sofaTerra from "@/assets/sofa-terra.jpg";
+import sofaPuff from "@/assets/sofa-puff1.jpg";
+import sofaCloud from "@/assets/sofa-cloud1.jpg";
+import sofaCube from "@/assets/sofa-cube1.jpg";
+import sofaTerra from "@/assets/Sofa-TERRA1.jpg";
 
 const HighlightProduct = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,4 +1,4 @@
-import findInspiration from "@/assets/find-inspiration.jpg";
+import findInspiration from "@/assets/find-inspiration1.jpg";
 import { Badge } from "@/components/ui/badge";
 
 const FindInspiration = () => {
