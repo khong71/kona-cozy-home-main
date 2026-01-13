@@ -1,5 +1,5 @@
 import { Truck } from "lucide-react";
-import heroBanner from "@/assets/hero-banner.jpg";
+import heroBanner from "@/assets/hero-banner(2).png";
 
 const HeroBanner = () => {
   const colorSwatches = [
@@ -18,9 +18,9 @@ const HeroBanner = () => {
         <img
           src={heroBanner}
           alt="KONA Furniture Collection"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
         />
-        
+
         {/* Overlay Content */}
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/20 to-transparent">
           <div className="container mx-auto px-4 h-full flex items-center">
@@ -35,11 +35,11 @@ const HeroBanner = () => {
         </div>
 
         {/* KONA Badge */}
-        <div className="absolute top-8 right-8 md:top-12 md:right-12">
+        {/* <div className="absolute top-8 right-8 md:top-12 md:right-12">
           <div className="bg-primary w-20 h-20 md:w-24 md:h-24 rounded-full flex items-center justify-center shadow-lg">
             <span className="text-primary-foreground font-bold text-lg md:text-xl">KONA</span>
           </div>
-        </div>
+        </div> */}
 
         {/* Free Shipping Box */}
         <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12 hidden sm:block">
