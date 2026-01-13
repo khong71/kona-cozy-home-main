@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Search, Camera, Heart, ShoppingCart, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import logo from "@/assets/logo.jpg";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -22,8 +23,8 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between gap-4">
           {/* Logo */}
-          <a href="/" className="text-3xl font-bold tracking-tight">
-            K<span className="text-primary">Ö</span>NA
+          <a href="/" className="flex items-center">
+            <img src={logo} alt="KÖNA" className="h-10 w-auto" />
           </a>
 
           {/* Search Bar - Hidden on mobile */}
