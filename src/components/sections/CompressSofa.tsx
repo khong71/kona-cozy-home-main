@@ -1,15 +1,15 @@
 import { Button } from "@/components/ui/button";
-import sofaPuff from "@/assets/sofa-puff.jpg";
-import sofaCozy from "@/assets/sofa-cozy.jpg";
-import sofaCube from "@/assets/sofa-cube.jpg";
-import sofaDot from "@/assets/sofa-dot.jpg";
-import sofaLuno from "@/assets/sofa-luno.jpg";
-import sofaRibbon from "@/assets/sofa-ribbon.jpg";
-import sofaPuffDuo from "@/assets/sofa-puff-duo.jpg";
-import sofaCozyDuo from "@/assets/sofa-cozy-duo.jpg";
-import sofaTerra from "@/assets/sofa-terra.jpg";
-import sofaCloud from "@/assets/sofa-cloud.jpg";
-import sofaFamily from "@/assets/sofa-family.jpg";
+import sofaPuff from "@/assets/sofa-puff(2).jpg";
+import sofaCozy from "@/assets/sofa-cozy(2).jpg";
+import sofaCube from "@/assets/sofa-cube(2).jpg";
+import sofaDot from "@/assets/sofa-dot(2).jpg";
+import sofaLuno from "@/assets/sofa-luno(2).jpg";
+import sofaRibbon from "@/assets/sofa-ribbon(2).png";
+import sofaPuffDuo from "@/assets/sofa-puff-duo(2).jpg";
+import sofaCozyDuo from "@/assets/sofa-cozy-duo(2).jpg";
+import sofaTerra from "@/assets/sofa-terra(2).png";
+import sofaCloud from "@/assets/sofa-cloud(2).jpg";
+import sofaFamily from "@/assets/sofa-family(2).jpg";
 
 const CompressSofa = () => {
   const sofas = [

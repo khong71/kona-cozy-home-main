@@ -1,5 +1,5 @@
-import healingSection from "@/assets/healing-section.jpg";
-import healingRoom2 from "@/assets/healing-room-2.jpg";
+import healingSection from "@/assets/healing-section(2).jpg";
+import healingRoom2 from "@/assets/healing-room-2(2).jpg";
 
 const HealingFurniture = () => {
   const tabs = [

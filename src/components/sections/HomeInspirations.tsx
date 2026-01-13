@@ -1,7 +1,7 @@
 import inspiration1 from "@/assets/inspiration-1.png";
 import inspiration2 from "@/assets/inspiration-2.png";
-import inspiration3 from "@/assets/inspiration-3.jpg";
-import inspiration4 from "@/assets/inspiration-4.jpg";
+import inspiration3 from "@/assets/inspiration-3(2).jpg";
+import inspiration4 from "@/assets/inspiration-4(2).jpg";
 
 const HomeInspirations = () => {
   const inspirations = [
